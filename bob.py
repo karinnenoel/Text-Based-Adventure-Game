@@ -7,4 +7,4 @@ def displayIntro():
     print ("there a box in the middle of the room")
     print ()
 
-displayintro() 
+displayIntro() 
