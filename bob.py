@@ -1,25 +1,33 @@
- #Name a and k
-import time
-import random
-def displayIntro():
-    print ("you are in a house you have no idea how you got there")
-    print ("you see one door in every side of the room with 4 sides")
-    print ("there a box in the middle of the room")
-    print ()
-def choosedoor():
-door = ""
-door = input ("which door will you choose?(1 or 2 or 3 or 4 or 5)
-print("you go into the door")
-time.sleep(3)
-print ("you look inside the room")
-print()
-time.sleep()
-correctdoor ==1
-door 2 == 2
-door 3 == 3
-door 4 == 4
-door 5 == 5
+def start():
+    print("You wake up in a dark, square room. In the middle of the room is a box, and there are four doors, one on each side of the room.")
+    print("You can go north, east, south, or west. You can also open the box.")
+    print("1. Go north")
+    print("2. Go east")
+    print("3. Go south")
+    print("4. Go west")
+    print("5. Open the box")
+    choice = input("What do you choose? ")
+    if choice == "1":
+        northroom()
+    elif choice == "2":
+        eastRoom()
+    elif choice == "3":
+        southRoom()
+    elif choice == "4":
+        westRoom()
+    elif choice == "5":
+        bomb()
+    else:
+        print("No, that's not a valid choice.")
+##
+##def northRoom():
+##
+##def eastRoom():
+##
+##def southRoom():
+##
+##def westRoom():
+##
+##def bomb():
 
-
-              
-choosedoor()
+start()
