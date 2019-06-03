@@ -7,8 +7,21 @@ def start():
     print("4. Go west")
     print("5. Open the box")
     choice = input("What do you choose? ")
+    start 
+    def northRoom():
+        print("youer in a blue room with a powerful light coming in")
+        print("go back to door is 1")
+        print("go to light 2")
+        roomone = input ("what do you choose? ")
+        if roomone == "1":
+            start()
+        elif roomone == "2":
+            print ("you die and go back to start")
+            start()
+        else:
+            print ("stop that")
     if choice == "1":
-        northroom()
+        northRoom()
     elif choice == "2":
         eastRoom()
     elif choice == "3":
@@ -19,8 +32,9 @@ def start():
         bomb()
     else:
         print("No, that's not a valid choice.")
-##
-##def northRoom():
+
+
+
 ##
 ##def eastRoom():
 ##
