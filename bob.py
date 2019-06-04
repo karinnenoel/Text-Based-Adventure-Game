@@ -1,25 +1,24 @@
-def start():
-    print("You wake up in a dark, square room. In the middle of the room is a box, and there are four doors, one on each side of the room.")
-    print("You can go north, east, south, or west. You can also open the box.")
-    print("1. Go north")
-    print("2. Go east")
-    print("3. Go south")
-    print("4. Go west")
-    print("5. Open the box")
-    choice = input("What do you choose? ")
-    start 
-    def northRoom():
+ def northRoom():
         print("youer in a blue room with a powerful light coming in")
         print("go back to door is 1")
         print("go to light 2")
-        roomone = input ("what do you choose? ")
-        if roomone == "1":
+        roomOne = input ("what do you choose? ")
+        if roomOne == "1":
             start()
-        elif roomone == "2":
+        elif roomOne == "2":
             print ("you die and go back to start")
             start()
         else:
-            print ("stop that")
+             print ("stop that")
+    def eastRoom():
+        print("youer in yellow room")
+        print("you feel a bad felling and than you see it")
+        print("A BIG SPIDER IS RIGHT INFRONT OF YOU")
+        print("you run out 1")
+        print("you give the spider a big hug 2")
+        roomTwo == input ("what do you choose 
+        
+        
     if choice == "1":
         northRoom()
     elif choice == "2":
@@ -35,8 +34,8 @@ def start():
 
 
 
-##
-##def eastRoom():
+
+
 ##
 ##def southRoom():
 ##
