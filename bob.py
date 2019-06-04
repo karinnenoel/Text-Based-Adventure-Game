@@ -19,21 +19,22 @@ def start():
             print ("Yes? or No?")
             start() 
         else:
-            print ("Stop that u lil turkey!")
+            print ("Stop that. Pick 1 or 2.")
     def eastRoom():
-        print("You walk into a yellow room")
-        print("A bad feeling starts to grow in the pit of your stomach. Than you see it!")
-        print("A BIG SPIDER IS RIGHT INFRONT OF YOU")
-        print("you run out 1")
-        print("you give the spider a big hug 2")
+        print("You walk into a yellow room.")
+        print("A bad feeling starts to grow in the pit of your stomach. Then you look up and see it!")
+        print("A giant but harmless looking spider is crawling on the ceiling.")
+        print("Will you run out of the room? Option - 1")
+        print("Or will you stay and fight? Option - 2")
         roomTwo = input ("what do you choose? ")
         if roomTwo == "1":
             start()
         elif roomTwo =="2":
-            print ("you get killed by the spider aaaaa")
+            print ("You became Sally's lunch. Would you like to respawn?")
+            print ("Yes? or No?)
             start()
         else:
-            print("Stop that u big cat") 
+            print("I told you last time! Pick 1 or 2! *Le sigh*")
         
     if choice == "1":
         northRoom()
