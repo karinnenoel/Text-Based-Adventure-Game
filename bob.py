@@ -6,28 +6,34 @@ def start():
     print("3. Go South")
     print("4. Go West")
     print("5. Open the box")
-    choice = input("What do you choose? ")
-    start 
+    choice = input("What do you choose? ") 
     def northRoom():
         print("You enter the north room and the walls are covered in blue paint. There is an ethereal looking light beaming in the center of the floor.")
         print("Will you go back to the door? Option - 1")
         print("Or will you go to light? Option - 2")
-        roomone = input ("What do you choose? ")
-        if roomone == "1":
+        roomOne = input ("What do you choose? ")
+        if roomOne == "1":
             start()
-        elif roomone == "2":
+        elif roomOne == "2":
             print ("You were burnt to a crisp lol. Would you like to respawn?")
-            print ("Yes? or No?") ## add way to optionally restart the game via user input yes = start no = kill program
+            print ("Yes? or No?")
+            start() 
         else:
             print ("Stop that u lil turkey!")
-##    def eastRoom():
-##        print("You walk into a yellow room")
-##        print("A bad feeling starts to grow in the pit of your stomach. Than you see it!")
-##        print("A BIG SPIDER IS RIGHT INFRONT OF YOU")
-##        print("you run out 1")
-##        print("you give the spider a big hug 2")
-##        roomTwo == input ("what do you choose 
-        
+    def eastRoom():
+        print("You walk into a yellow room")
+        print("A bad feeling starts to grow in the pit of your stomach. Than you see it!")
+        print("A BIG SPIDER IS RIGHT INFRONT OF YOU")
+        print("you run out 1")
+        print("you give the spider a big hug 2")
+        roomTwo = input ("what do you choose? ")
+        if roomTwo == "1":
+            start()
+        elif roomTwo =="2":
+            print ("you get killed by the spider aaaaa")
+            start()
+        else:
+            print("Stop that u big cat") 
         
     if choice == "1":
         northRoom()
