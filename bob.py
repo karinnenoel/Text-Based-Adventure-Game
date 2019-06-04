@@ -31,7 +31,7 @@ def start():
             start()
         elif roomTwo =="2":
             print ("You became Sally's lunch. Would you like to respawn?")
-            print ("Yes? or No?)
+            print ("Yes? or No?")
             start()
         else:
             print("I told you last time! Pick 1 or 2! *Le sigh*")
