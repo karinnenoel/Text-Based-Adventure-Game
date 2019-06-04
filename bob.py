@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def start():
     print("You wake up in a dark, square room. In the middle of the room there is a box. There are four doors and one is on each side of the room.")
     print("You can go North, East, South, or West. You can also open the mysterious box.")
@@ -21,13 +20,13 @@ def start():
             print ("Yes? or No?") ## add way to optionally restart the game via user input yes = start no = kill program
         else:
             print ("Stop that u lil turkey!")
-    def eastRoom():
-        print("You walk into a yellow room")
-        print("A bad feeling starts to grow in the pit of your stomach. Than you see it!")
-        print("A BIG SPIDER IS RIGHT INFRONT OF YOU")
-        print("you run out 1")
-        print("you give the spider a big hug 2")
-        roomTwo == input ("what do you choose 
+##    def eastRoom():
+##        print("You walk into a yellow room")
+##        print("A bad feeling starts to grow in the pit of your stomach. Than you see it!")
+##        print("A BIG SPIDER IS RIGHT INFRONT OF YOU")
+##        print("you run out 1")
+##        print("you give the spider a big hug 2")
+##        roomTwo == input ("what do you choose 
         
         
     if choice == "1":
