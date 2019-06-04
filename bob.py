@@ -17,7 +17,11 @@ def start():
         elif roomOne == "2":
             print ("You were burnt to a crisp lol. Would you like to respawn?")
             print ("Yes? or No?")
-            start() 
+            roomone = input("what you choose? ")
+            if roomone =="yes":
+                start()
+            elif roomone =="no":
+                exit() 
         else:
             print ("Stop that. Pick 1 or 2.")
     def eastRoom():
@@ -32,7 +36,11 @@ def start():
         elif roomTwo =="2":
             print ("You became Sally's lunch. Would you like to respawn?")
             print ("Yes? or No?")
-            start()
+            roomtwo = input("what you  choose? ")
+            if roomtwo =="yes":
+                start()
+            elif roomtwo =="no":
+                exit()
         else:
             print("I told you last time! Pick 1 or 2! *Le sigh*")
         
