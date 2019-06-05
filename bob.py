@@ -18,9 +18,9 @@ def start():
             print ("You were burnt to a crisp lol. Would you like to respawn?")
             print ("Yes? or No?")
             roomone = input("what you choose? ")
-            if roomone =="yes":
+            if roomone =="Yes":
                 start()
-            elif roomone =="no":
+            elif roomone =="No":
                 exit() 
         else:
             print ("Stop that. Pick 1 or 2.")
@@ -38,14 +38,27 @@ def start():
             print ("You became Sally's lunch. Would you like to respawn?")
             print ("Yes? or No?")
             roomtwo = input("what you  choose? ")
-            if roomtwo =="yes":
+            if roomtwo =="Yes":
                 start()
-            elif roomtwo =="no":
+            elif roomtwo =="No":
                 exit()
         else:
              print("I told you last time! Pick 1 or 2! *Le sigh*")
              eastRoom() 
         
+
+    def southRoom():
+        print("When you walk into the room you notice a mess of green vines tangled against the cracked stone walls.")
+        print("You look to your left and see an old wooden door that is about to come off the hinges.")
+        print("You look to your right and see a strong metal door.")
+        print("What will your choose?")
+        print("Make a run for the main room? Option - 1")
+        print("Go into the room on the left? Option - 2")
+        print("Or will you go to the room on the right? Option - 3")
+        roomThree = input("What do you chose?")      
+
+
+
     if choice == "1":
         northRoom()
     elif choice == "2":
