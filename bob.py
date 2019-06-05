@@ -37,9 +37,9 @@ def start():
         elif roomTwo =="2":
             print ("You became Sally's lunch. Would you like to respawn?")
             print ("Yes? or No?")
-            roomtwo = input("what you  choose? ")
+            roomtwo = input("What do you choose? ")
             if roomtwo =="Yes":
-                start()
+?                start()
             elif roomtwo =="No":
                 exit()
         else:
@@ -52,11 +52,23 @@ def start():
         print("You look to your left and see an old wooden door that is about to come off the hinges.")
         print("You look to your right and see a strong metal door.")
         print("What will your choose?")
-        print("Make a run for the main room? Option - 1")
-        print("Go into the room on the left? Option - 2")
-        print("Or will you go to the room on the right? Option - 3")
+        print("Go into the room on the left? Option - 1")
+        print("Or will you go to the room on the right? Option - 2")
         roomThree = input("What do you chose?")      
-
+        if roomThree == "1":
+            print("When you open the wooden door a giant venus flytrap lunges out and swallows you whole.")
+            print("Would you like to respawn?")
+            print("Yes? or No?")
+            roomthree = input("What do you choose? ")
+            if roomthree =="Yes":
+                start()
+            elif roomthree =="No":
+                exit()
+        elif roomThree == "2":
+            print("When you open the metal door the wooden door springs open and a giant venus flytrap trys swalow you whole.")
+            print("Luckily, you chose the metal door and the venus flytrap could not reach you")
+            print("You look around the room and find a key and a sword.")
+            
 
 
     if choice == "1":
@@ -76,8 +88,7 @@ def start():
 
 
 
-##
-##def southRoom():
+
 ##
 ##def westRoom():
 ##
