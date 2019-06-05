@@ -1,5 +1,5 @@
 def start():
-    print("You wake up in a dark, square room. In the middle of the room there is a box. There are four doors and one is on each side of the room.")
+    print("You wake up in a dark, square room. The only things you have are a sword, some water, and some food. In the middle of the room there is a box. There are four doors and one is on each side of the room.")
     print("You can go North, East, South, or West. You can also open the mysterious box.")
     print("1. Go North")
     print("2. Go East")
@@ -17,7 +17,7 @@ def start():
         elif roomOne == "2":
             print ("You were burnt to a crisp lol. Would you like to respawn?")
             print ("Yes? or No?")
-            roomone = input("what you choose? ")
+            roomone = input("What do you choose?")
             if roomone =="Yes":
                 start()
             elif roomone =="No":
@@ -39,7 +39,7 @@ def start():
             print ("Yes? or No?")
             roomtwo = input("What do you choose? ")
             if roomtwo =="Yes":
-?                start()
+                start()
             elif roomtwo =="No":
                 exit()
         else:
@@ -67,7 +67,16 @@ def start():
         elif roomThree == "2":
             print("When you open the metal door the wooden door springs open and a giant venus flytrap trys swalow you whole.")
             print("Luckily, you chose the metal door and the venus flytrap could not reach you")
-            print("You look around the room and find a key and a sword.")
+            print("The room is empty and there is no exit.")
+            print("You take a step and stand in the metal doorway.")
+            print("Then you ready your sword and you chop off the venus flytrap's head.")
+            Roomthree = input("Would you like to go back to the main room? Yes? or No?. ")
+            if Roomthree =="Yes":
+                start()
+            elif Roomthree =="No":
+                exit()
+        else:
+            print("Choose from the options I give you! Oi vey! Why must you be so difficult?")
             
 
 
