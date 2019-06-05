@@ -18,9 +18,9 @@ def start():
             print ("You were burnt to a crisp lol. Would you like to respawn?")
             print ("Yes? or No?")
             roomone = input("what you choose? ")
-            if roomone =="yes":
+            if roomone =="Yes":
                 start()
-            elif roomone =="no":
+            elif roomone =="No":
                 exit() 
         else:
             print ("Stop that. Pick 1 or 2.")
@@ -37,9 +37,9 @@ def start():
             print ("You became Sally's lunch. Would you like to respawn?")
             print ("Yes? or No?")
             roomtwo = input("what you  choose? ")
-            if roomtwo =="yes":
+            if roomtwo =="Yes":
                 start()
-            elif roomtwo =="no":
+            elif roomtwo =="No":
                 exit()
         else:
             print("I told you last time! Pick 1 or 2! *Le sigh*")
