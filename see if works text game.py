@@ -2,12 +2,8 @@ import time
 
 
 def start():
-    print(
-        "You wake up in a dark, square room. The only things you have are a sword, some water, and some food. In the middle of the room there is a box. There are four doors and one is on each side of the room."
-    )
-    print(
-        "You can go North, East, South, or West. You can also open the mysterious box."
-    )
+    print("You wake up in a dark, square room. The only things you have are a sword, some water, and some food. In the middle of the room there is a box. There are four doors and one is on each side of the room.")
+    print("You can go North, East, South, or West. You can also open the mysterious box.")
     print("1. Go North")
     print("2. Go East")
     print("3. Go South")
@@ -16,9 +12,7 @@ def start():
     choice = input("What do you choose? ")
 
     def northRoom():
-        print(
-            "You enter the north room and the walls are covered in blue paint. There is an ethereal looking light beaming in the center of the floor."
-        )
+        print("You enter the north room and the walls are covered in blue paint. There is an ethereal looking light beaming in the center of the floor.")
         print("Will you go back to the door? Option - 1")
         print("Or will you go to light? Option - 2")
         roomOne = input("What do you choose? ")
@@ -182,7 +176,7 @@ def start():
             "You cry out but it to late the loop has begun. You will be stuck here forever watching yourself open the same box."
         )
         print("The End.")
-        time.sleep(60)
+        time.sleep(10)
         start()
 
     if choice == "1":
@@ -200,3 +194,4 @@ def start():
 
 
 start()
+    
