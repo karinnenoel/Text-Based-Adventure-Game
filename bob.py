@@ -1,3 +1,4 @@
+import time
 def start():
     print("You wake up in a dark, square room. The only things you have are a sword, some water, and some food. In the middle of the room there is a box. There are four doors and one is on each side of the room.")
     print("You can go North, East, South, or West. You can also open the mysterious box.")
@@ -156,3 +157,41 @@ def start():
         else:
             print ("stop that")
             westRoom()
+
+    def bomb():
+        print("you open the box")
+        print("than you feel it")
+        print("a loud sond can be heard and you see it")
+        print("past versions of you opening the box")
+        print("you cry out but it to late the loop has begun")
+        time.sleep(10)
+        start()
+    
+        
+        
+                   
+                   
+                
+
+    if choice == "1":
+        northRoom()
+    elif choice == "2":
+        eastRoom()
+    elif choice == "3":
+        southRoom()
+    elif choice == "4":
+        westRoom()
+    elif choice == "5":
+        bomb()
+    else:
+        print("No, that's not a valid choice.")
+
+
+
+
+
+
+
+
+
+start()
