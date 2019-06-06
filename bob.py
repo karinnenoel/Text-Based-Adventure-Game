@@ -1,3 +1,4 @@
+
 import time
 def start():
     print("You wake up in a dark, square room. The only things you have are a sword, some water, and some food. In the middle of the room there is a box. There are four doors and one is on each side of the room.")
@@ -18,7 +19,7 @@ def start():
         elif roomOne == "2":
             print ("You were burnt to a crisp lol. Would you like to respawn?")
             print ("Yes? or No?")
-            roomone = input("What do you choose?")
+            roomone = input("What do you choose? ")
             if roomone =="Yes":
                 start()
             elif roomone =="No":
@@ -32,7 +33,7 @@ def start():
         print("A giant but harmless looking spider is crawling on the ceiling.")
         print("Will you run out of the room? Option - 1")
         print("Or will you stay and fight? Option - 2")
-        roomTwo = input ("what do you choose? ")
+        roomTwo = input ("What do you choose? ")
         if roomTwo == "1":
             start()
         elif roomTwo =="2":
@@ -81,90 +82,84 @@ def start():
         
     
     def westRoom():
-        print("you walk into a room you have a good felling")
-        print("a man is right infront of you how like like a docter")
-        print("the man did not see you")
-        print("do you talk to the man 1")
-        print("do you attack the man 2")
-        print("do you back to door 3")
-        RoomFour =input("what do you choose?")
-        if RoomFour == "1":
-            print("the man look at you")
-            print("with out a sound the man attack you")
-            print("do you run 1")
-            print("do you fight 2")
-            print("you try to talk to him 3")
-            manroom = input("what do you do")
+        print("You walk into the room and you get a good feeling.")
+        print("A man is right in front of you. He looks like a doctor.")
+        print("The man did not see you.")
+        print("Do you talk to the man? Option - 1")
+        print("Do you attack the man? Option - 2")
+        print("Or do you sneak back to the main room? Option - 3")
+            print("The man turns around and looks at you.")
+            print("Without a sound the man attacks you.")
+            print("Do you run Option? - 1")
+            print("Do you fight Option? - 2")
+            print("Or do you try to talk to him? Option - 3")
+            manroom = input("What do you do? ")
             if manroom == "1":
-                print ("you die")
-                print ("do you want to keep going yes or no")
-                manroomone = input ("what do you do")
-                if manroomone == "yes":
+                print ("He manages to chase you down. Then he kills you.")
+                print ("Do you want to keep going? Yes? or No?")
+                manroomone = input ("What do you do? ")
+                if manroomone == "Yes":
                     start()
-                elif manroomone == "no":
+                elif manroomone == "No":
                     exit()
                 else:
-                    ("no more")
+                    ("Choose a valid option.")
                     westRoom()
             elif manroom == "2":
-                print ("you die")
-                print ("do you want to keep going yes or no")
-                manroomone = input ("what do you do")
-                if manroomone == "yes":
+                print ("He notices you reach for your sword but he kills you before you can grab it.")
+                print ("Do you want to keep going? Yes? or No?")
+                manroomone = input ("What do you do? ")
+                if manroomone == "Yes":
                     start()
-                elif manroomone == "no":
+                elif manroomone == "No":
                     exit()
                 else:
-                    ("no more")
-                    westRoom()
-            elif manroom == "3":
-                print ("you die")
-                print ("do you want to keep going yes or no")
-                manroomone = input ("what do you do")
-                if manroomone == "yes":
-                    start()
-                elif manroomone == "no":
-                    exit()
-                else:
-                    ("no more")
+                    ("Please choose a valid option my d00de.")
                     westRoom()
 
             else:
-                print("stop that no more")
-                dathManroom = input ("yes or no")
-                if deathManroom == "yes":
+                print("Please choose a valid option.")
+                dathManroom = input ("Yes or no")
+                if deathManroom == "Yes":
                     start()
-                elif deathManroom == "no":
+                elif deathManroom == "No":
                     exit()
                 else:
-                    print("stop that")
+                    print("Choose a valid option!!")
                     westRoom()
         elif RoomFour == "2":
-            print("you die")
-            print("1 to go back")
-            print("2 to stop")
-            manroomone = input ("what do you do")
-            if manroomone == "yes":
+            print("You swing your sword to hard and you also miss. Then you loose balance and trip. The man sees that you were going to attack so he kills you.")
+            print("Would you like to respawn?")
+            print("Yes? or No?")
+            manroomone = input ("What do you do? ")
+            if manroomone == "Yes":
                 start()
-            elif manroomone == "no":
+            elif manroomone == "No":
                 exit()
             else:
-                print ("no more")
+                print ("Choose a valid option.")
                 westRoom()
         elif RoomFour == "3":
-            print ("ok")
+            print ("He does not have time for your small talk. He kills you.")
+            print("Would you like to respawn?")
+            print("Yes? or No?")
+            maiguy = input ("What would you like to do?")
+            if maiguy == "Yes":
             start()
-        else:
-            print ("stop that")
+            elif maiguy == "No":
+                exit()
+            else:
+            print ("Please choose a valid option.")
             westRoom()
 
     def bomb():
-        print("you open the box")
-        print("than you feel it")
-        print("a loud sond can be heard and you see it")
-        print("past versions of you opening the box")
-        print("you cry out but it to late the loop has begun")
-        time.sleep(10)
+        print("You open the box.")
+        print("Then you feel it")
+        print("A loud sound can be heard and now you see it")
+        print("Past versions of you are opening the box")
+        print("You cry out but it to late the loop has begun. You will be stuck here forever watching yourself open the same box.")
+        print("The End.")
+        time.sleep(60)
         start()
     
         
