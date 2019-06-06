@@ -139,48 +139,20 @@ def start():
                     print("stop that")
                     westRoom()
         elif RoomFour == "2":
-            print ("you die")
-            print ("do you want to keep going yes or no")
-            dathManroomyes = input ("yes or no")
-            if deathManroomyes == "yes":
+            print("you die")
+            print("1 to go back")
+            print("2 to stop")
+            manroomone = input ("what do you do")
+            if manroomone == "yes":
                 start()
-            elif deathManroomyes == "no":
+            elif manroomone == "no":
                 exit()
             else:
-                print("stop that")
+                print ("no more")
                 westRoom()
-        elif roomFour == "3":
+        elif RoomFour == "3":
             print ("ok")
             start()
         else:
             print ("stop that")
             westRoom()
-        
-        
-                   
-                   
-                
-
-    if choice == "1":
-        northRoom()
-    elif choice == "2":
-        eastRoom()
-    elif choice == "3":
-        southRoom()
-    elif choice == "4":
-        westRoom()
-    elif choice == "5":
-        bomb()
-    else:
-        print("No, that's not a valid choice.")
-
-
-
-
-
-
-
-##
-##def bomb():
-
-start()
