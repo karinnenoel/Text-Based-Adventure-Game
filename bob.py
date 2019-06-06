@@ -1,4 +1,3 @@
-
 import time
 def start():
     print("You wake up in a dark, square room. The only things you have are a sword, some water, and some food. In the middle of the room there is a box. There are four doors and one is on each side of the room.")
@@ -56,7 +55,7 @@ def start():
         print("What will your choose?")
         print("Go into the room on the left? Option - 1")
         print("Or will you go to the room on the right? Option - 2")
-        roomThree = input("What do you chose?")      
+        roomThree = input("What do you chose? ")      
         if roomThree == "1":
             print("When you open the wooden door a giant venus flytrap lunges out and swallows you whole.")
             print("Would you like to respawn?")
@@ -88,24 +87,26 @@ def start():
         print("Do you talk to the man? Option - 1")
         print("Do you attack the man? Option - 2")
         print("Or do you sneak back to the main room? Option - 3")
-            print("The man turns around and looks at you.")
-            print("Without a sound the man attacks you.")
-            print("Do you run Option? - 1")
-            print("Do you fight Option? - 2")
-            print("Or do you try to talk to him? Option - 3")
-            manroom = input("What do you do? ")
-            if manroom == "1":
-                print ("He manages to chase you down. Then he kills you.")
-                print ("Do you want to keep going? Yes? or No?")
-                manroomone = input ("What do you do? ")
-                if manroomone == "Yes":
-                    start()
-                elif manroomone == "No":
-                    exit()
-                else:
-                    ("Choose a valid option.")
-                    westRoom()
-            elif manroom == "2":
+    RoomFour =input("What do you choose? ")
+    if RoomFour == "1":
+        print("The man turns around and looks at you.")
+        print("Without a sound the man attacks you.")
+        print("Do you run Option? - 1")
+        print("Do you fight Option? - 2")
+        print("Or do you try to talk to him? Option - 3")
+        manroom = input("What do you do? ")
+        if manroom == "1":
+            print ("He manages to chase you down. Then he kills you.")
+            print ("Do you want to keep going? Yes? or No?")
+            manroomone = input ("What do you do? ")
+        if manroomone == "Yes":
+                start()
+        elif manroomone == "No":
+                exit()
+        else:
+            ("Choose a valid option.")
+            westRoom()
+        if manroom == "2":
                 print ("He notices you reach for your sword but he kills you before you can grab it.")
                 print ("Do you want to keep going? Yes? or No?")
                 manroomone = input ("What do you do? ")
@@ -114,18 +115,7 @@ def start():
                 elif manroomone == "No":
                     exit()
                 else:
-                    ("Please choose a valid option my d00de.")
-                    westRoom()
-
-            else:
-                print("Please choose a valid option.")
-                dathManroom = input ("Yes or no")
-                if deathManroom == "Yes":
-                    start()
-                elif deathManroom == "No":
-                    exit()
-                else:
-                    print("Choose a valid option!!")
+                    print("Please choose a valid option my d00de.")
                     westRoom()
         elif RoomFour == "2":
             print("You swing your sword to hard and you also miss. Then you loose balance and trip. The man sees that you were going to attack so he kills you.")
@@ -145,11 +135,11 @@ def start():
             print("Yes? or No?")
             maiguy = input ("What would you like to do?")
             if maiguy == "Yes":
-            start()
+             start()
             elif maiguy == "No":
                 exit()
             else:
-            print ("Please choose a valid option.")
+             print ("Please choose a valid option.")
             westRoom()
 
     def bomb():
@@ -190,3 +180,12 @@ def start():
 
 
 start()
+
+
+
+
+
+
+
+
+
